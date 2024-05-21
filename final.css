@@ -1,0 +1,76 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{background: rgb(253, 218, 218); background-image: url(assets/seguridad.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;}
+
+header{background-color: rgb(131, 241, 238);
+height: 100px;
+text-align: center;
+line-height: 100px;
+color: black;
+border-bottom: 3px solid;
+}
+nav ul li{
+    float: left;
+list-style: none;
+margin:10px ;
+line-height: 30px;
+
+}
+nav{ 
+height: 50px;
+}
+.clearfx{
+    clear: both;
+}
+
+#container{
+    background-color: rgb(112, 9, 230);
+    /*width:100%;*/
+    width: 1000;
+    height: 10px;
+
+    margin:0px auto;
+
+}
+#cente{
+    float: left;
+    background-image: url(assets/79f735bdc978bb91c3459899cad1a99a.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    width: calc(80% - 80px);
+    min-height: 500px;
+    padding: 40px;
+
+}
+aside{ float: left;
+    width:calc(20% - 20px) ;
+    
+   min-height: 650px;
+padding: 10px;
+
+}
+.article{
+color: rgb(48, 30, 3);
+margin-top: 15px;
+margin-bottom: 15px;
+padding-bottom: 10px;
+border-bottom: 3px solid ;
+    
+}
+footer{
+    background-color: aqua;
+    color: rgb(36, 36, 12);
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+
+}
